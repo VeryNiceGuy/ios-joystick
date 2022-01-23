@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA34C0A519F8B07400CD472C /* Joystick.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA34C0A319F8B07400CD472C /* Joystick.mm */; };
+		FA7406BB19FE70DC0021F68F /* atlas.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7406BA19FE70DC0021F68F /* atlas.png */; };
+		FABFC7FB19F8B1C50087F610 /* JoystickPoint.mm in Sources */ = {isa = PBXBuildFile; fileRef = FABFC7F919F8B1C50087F610 /* JoystickPoint.mm */; };
+		FABFC7FE19F918940087F610 /* Common.mm in Sources */ = {isa = PBXBuildFile; fileRef = FABFC7FC19F918940087F610 /* Common.mm */; };
+		FAC8672419F704F600F83248 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC8672319F704F600F83248 /* main.m */; };
+		FAC8672719F704F600F83248 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC8672619F704F600F83248 /* AppDelegate.m */; };
+		FAC8672E19F704F600F83248 /* GameViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FAC8672D19F704F600F83248 /* GameViewController.mm */; };
+		FAC8673119F704F600F83248 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC8672F19F704F600F83248 /* Main.storyboard */; };
+		FAC8673319F704F600F83248 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC8673219F704F600F83248 /* Images.xcassets */; };
+		FAC8673619F704F600F83248 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC8673419F704F600F83248 /* LaunchScreen.xib */; };
+		FAC8674E19F7221E00F83248 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC8674D19F7221E00F83248 /* Foundation.framework */; };
+		FAC8675019F7222D00F83248 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC8674F19F7222D00F83248 /* GLKit.framework */; };
+		FAC8675419F72CA100F83248 /* TemplateIcon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC8675219F72CA000F83248 /* TemplateIcon2x.png */; };
+		FAD438D019FF051100095045 /* ShaderForJoystick.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FAD438CC19FF051100095045 /* ShaderForJoystick.fsh */; };
+		FAD438D119FF051100095045 /* ShaderForJoystick.vsh in Resources */ = {isa = PBXBuildFile; fileRef = FAD438CD19FF051100095045 /* ShaderForJoystick.vsh */; };
+		FAD438D219FF051100095045 /* ShaderForJoystickPoint.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FAD438CE19FF051100095045 /* ShaderForJoystickPoint.fsh */; };
+		FAD438D319FF051100095045 /* ShaderForJoystickPoint.vsh in Resources */ = {isa = PBXBuildFile; fileRef = FAD438CF19FF051100095045 /* ShaderForJoystickPoint.vsh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA34C0A319F8B07400CD472C /* Joystick.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Joystick.mm; sourceTree = "<group>"; };
+		FA34C0A419F8B07400CD472C /* Joystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Joystick.h; sourceTree = "<group>"; };
+		FA7406BA19FE70DC0021F68F /* atlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = atlas.png; sourceTree = "<group>"; };
+		FABFC7F919F8B1C50087F610 /* JoystickPoint.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JoystickPoint.mm; sourceTree = "<group>"; };
+		FABFC7FA19F8B1C50087F610 /* JoystickPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoystickPoint.h; sourceTree = "<group>"; };
+		FABFC7FC19F918940087F610 /* Common.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Common.mm; sourceTree = "<group>"; };
+		FABFC7FD19F918940087F610 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		FAC8671E19F704F600F83248 /* iOSJoystick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSJoystick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC8672219F704F600F83248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC8672319F704F600F83248 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAC8672519F704F600F83248 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAC8672619F704F600F83248 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAC8672C19F704F600F83248 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		FAC8672D19F704F600F83248 /* GameViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = GameViewController.mm; sourceTree = "<group>"; };
+		FAC8673019F704F600F83248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAC8673219F704F600F83248 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAC8673519F704F600F83248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FAC8674D19F7221E00F83248 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAC8674F19F7222D00F83248 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		FAC8675219F72CA000F83248 /* TemplateIcon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon2x.png; sourceTree = "<group>"; };
+		FAD438CC19FF051100095045 /* ShaderForJoystick.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = ShaderForJoystick.fsh; path = Shaders/ShaderForJoystick.fsh; sourceTree = "<group>"; };
+		FAD438CD19FF051100095045 /* ShaderForJoystick.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = ShaderForJoystick.vsh; path = Shaders/ShaderForJoystick.vsh; sourceTree = "<group>"; };
+		FAD438CE19FF051100095045 /* ShaderForJoystickPoint.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = ShaderForJoystickPoint.fsh; path = Shaders/ShaderForJoystickPoint.fsh; sourceTree = "<group>"; };
+		FAD438CF19FF051100095045 /* ShaderForJoystickPoint.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = ShaderForJoystickPoint.vsh; path = Shaders/ShaderForJoystickPoint.vsh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAC8671B19F704F600F83248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC8675019F7222D00F83248 /* GLKit.framework in Frameworks */,
+				FAC8674E19F7221E00F83248 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAC8671519F704F600F83248 = {
+			isa = PBXGroup;
+			children = (
+				FAC8674F19F7222D00F83248 /* GLKit.framework */,
+				FAC8674D19F7221E00F83248 /* Foundation.framework */,
+				FAC8672019F704F600F83248 /* iOSJoystick */,
+				FAC8671F19F704F600F83248 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAC8671F19F704F600F83248 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAC8671E19F704F600F83248 /* iOSJoystick.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAC8672019F704F600F83248 /* iOSJoystick */ = {
+			isa = PBXGroup;
+			children = (
+				FAD438CC19FF051100095045 /* ShaderForJoystick.fsh */,
+				FAD438CD19FF051100095045 /* ShaderForJoystick.vsh */,
+				FAD438CE19FF051100095045 /* ShaderForJoystickPoint.fsh */,
+				FAD438CF19FF051100095045 /* ShaderForJoystickPoint.vsh */,
+				FA7406BA19FE70DC0021F68F /* atlas.png */,
+				FAC8672519F704F600F83248 /* AppDelegate.h */,
+				FAC8672619F704F600F83248 /* AppDelegate.m */,
+				FAC8672C19F704F600F83248 /* GameViewController.h */,
+				FAC8672D19F704F600F83248 /* GameViewController.mm */,
+				FAC8672F19F704F600F83248 /* Main.storyboard */,
+				FAC8673219F704F600F83248 /* Images.xcassets */,
+				FAC8673419F704F600F83248 /* LaunchScreen.xib */,
+				FAC8672119F704F600F83248 /* Supporting Files */,
+				FAC8675219F72CA000F83248 /* TemplateIcon2x.png */,
+				FA34C0A319F8B07400CD472C /* Joystick.mm */,
+				FA34C0A419F8B07400CD472C /* Joystick.h */,
+				FABFC7F919F8B1C50087F610 /* JoystickPoint.mm */,
+				FABFC7FA19F8B1C50087F610 /* JoystickPoint.h */,
+				FABFC7FC19F918940087F610 /* Common.mm */,
+				FABFC7FD19F918940087F610 /* Common.h */,
+			);
+			name = iOSJoystick;
+			path = Testing;
+			sourceTree = "<group>";
+		};
+		FAC8672119F704F600F83248 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAC8672219F704F600F83248 /* Info.plist */,
+				FAC8672319F704F600F83248 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAC8671D19F704F600F83248 /* iOSJoystick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC8674519F704F600F83248 /* Build configuration list for PBXNativeTarget "iOSJoystick" */;
+			buildPhases = (
+				FAC8671A19F704F600F83248 /* Sources */,
+				FAC8671B19F704F600F83248 /* Frameworks */,
+				FAC8671C19F704F600F83248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSJoystick;
+			productName = Testing;
+			productReference = FAC8671E19F704F600F83248 /* iOSJoystick.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAC8671619F704F600F83248 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Ferzflun;
+				TargetAttributes = {
+					FAC8671D19F704F600F83248 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = FAC8671919F704F600F83248 /* Build configuration list for PBXProject "iOSJoystick" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAC8671519F704F600F83248;
+			productRefGroup = FAC8671F19F704F600F83248 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAC8671D19F704F600F83248 /* iOSJoystick */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAC8671C19F704F600F83248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD438D119FF051100095045 /* ShaderForJoystick.vsh in Resources */,
+				FAD438D219FF051100095045 /* ShaderForJoystickPoint.fsh in Resources */,
+				FAD438D019FF051100095045 /* ShaderForJoystick.fsh in Resources */,
+				FAC8673619F704F600F83248 /* LaunchScreen.xib in Resources */,
+				FAC8673119F704F600F83248 /* Main.storyboard in Resources */,
+				FAC8675419F72CA100F83248 /* TemplateIcon2x.png in Resources */,
+				FA7406BB19FE70DC0021F68F /* atlas.png in Resources */,
+				FAD438D319FF051100095045 /* ShaderForJoystickPoint.vsh in Resources */,
+				FAC8673319F704F600F83248 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAC8671A19F704F600F83248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC8672719F704F600F83248 /* AppDelegate.m in Sources */,
+				FA34C0A519F8B07400CD472C /* Joystick.mm in Sources */,
+				FABFC7FE19F918940087F610 /* Common.mm in Sources */,
+				FABFC7FB19F8B1C50087F610 /* JoystickPoint.mm in Sources */,
+				FAC8672E19F704F600F83248 /* GameViewController.mm in Sources */,
+				FAC8672419F704F600F83248 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAC8672F19F704F600F83248 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC8673019F704F600F83248 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAC8673419F704F600F83248 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC8673519F704F600F83248 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAC8674319F704F600F83248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAC8674419F704F600F83248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAC8674619F704F600F83248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Testing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = iOSJoystick;
+			};
+			name = Debug;
+		};
+		FAC8674719F704F600F83248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Testing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = iOSJoystick;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAC8671919F704F600F83248 /* Build configuration list for PBXProject "iOSJoystick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC8674319F704F600F83248 /* Debug */,
+				FAC8674419F704F600F83248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC8674519F704F600F83248 /* Build configuration list for PBXNativeTarget "iOSJoystick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC8674619F704F600F83248 /* Debug */,
+				FAC8674719F704F600F83248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAC8671619F704F600F83248 /* Project object */;
+}
